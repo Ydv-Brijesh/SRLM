@@ -194,20 +194,48 @@
 
 
 /* brijesh>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
 .das-sec-1 {
   display: flex;
   justify-content: space-between;
+
 }
 
 .sec-1-box table tr td {
   border: none;
   padding: 0px 15px;
+  width: 100%;
+
+}
+
+.bc1 {
+  border: 2px solid #00c500;
+}
+
+.bc2 {
+  border: 2px solid #ffa500;
+}
+
+.bc3 {
+  border: 2px solid #59c9ff;
+}
+
+.bc4 {
+  border: 2px solid #ff6262;
+}
+
+.bc5 {
+  border: 2px solid #99e700;
 }
 
 .sec-1-box {
-  border: 2px solid;
   padding: 1.5rem 0;
   border-radius: 6px;
+  margin: 3px;
+  flex-grow: 1;
+  color: #000000;
+  font-weight: 500;
 }
 
 .sec-1-box table tr .br {
@@ -220,19 +248,27 @@
 
 .das-sec-2 h5 {
   margin: 0%;
+  font-size: 16px;
+  color: #000000;
 }
 
 .das-sec-2 img {
   width: 11%;
+  margin: 0 12px 0 0;
 }
 
 .sec-2-box {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  border: 1px solid;
+  justify-content: center;
+  border: 1px solid #ddd;
   padding: 6px;
   border-radius: 6px;
+}
+
+.sec-2-box h6 {
+  font-size: 14px;
+  color: #000000;
 }
 
 .pb {
@@ -242,6 +278,13 @@
 
 .das-sec-3 {
   margin-top: 15px;
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+  border-radius: 10px;
+}
+
+.box_shadow {
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+  border-radius: 10px;
 }
 
 .das-sec-3 h5 {
@@ -252,9 +295,10 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  border: 1px solid;
+  border: 1px solid #ddd;
   padding: 18px 6px;
   border-radius: 6px;
+  color: #000000;
 }
 
 .ps {
@@ -267,7 +311,7 @@
 }
 
 .date-box {
-  padding: 12px;
+  padding: 1px 12px;
   border-radius: 6px;
   justify-content: space-between;
   width: -webkit-fill-available;
@@ -275,6 +319,10 @@
 
 .date-box label {
   margin: 0;
+}
+
+.date-lab {
+  font-weight: 500;
 }
 
 /* .date-box i {
@@ -288,7 +336,7 @@
 .sec-4-box {
   display: flex;
   align-items: center;
-  border: 1px solid;
+  border: 1px solid #ddd;
   padding: 16px 28px;
   border-radius: 6px 6px 0 0;
   justify-content: space-between;
@@ -315,6 +363,7 @@
 .sec-4-box-sub p {
   margin-bottom: 0%;
   font-size: 10.6px;
+  color: #000000;
 }
 
 .sec-4-box-sub h5 {
@@ -322,6 +371,7 @@
   font-size: 16px;
   font-weight: 600;
   margin-bottom: 0%;
+  color: #000000;
 }
 
 .sub-sec-4-box h4 {
@@ -329,6 +379,7 @@
   font-size: 16px;
   font-weight: 500;
   margin: 0%;
+  color: #0e8eff;
 }
 
 .sub-sec-4-box span {
@@ -349,28 +400,118 @@
 }
 
 .sec-4-box-bottom {
-  border: 1px solid;
+  border: 1px solid #ddd;
   border-radius: 0 0 6px 6px;
   border-top: 0;
 }
 
 .br {
-  border-left: 1px solid !important;
+  border-left: 1px solid #ddd !important;
 }
 
 .table span {
   font-size: 9px;
   font-weight: 500;
+  color: #0e8eff;
 }
 
 .table h4 {
   margin: 0%;
 }
-.policy-thum{
+
+.policy-thum {
   text-align: center;
-    font-size: 11px;
-    font-weight: 600;
+  font-size: 11px;
+  font-weight: 600;
 }
-.policy-thum span{
+
+.policy-thum span {
   color: red;
+}
+
+.das-sec-4 .b-a {
+  border-radius: 7px;
+}
+
+.das-sec-2 .b-a {
+  border-radius: 7px;
+}
+
+.das-sec-3 .b-a {
+  border-radius: 7px;
+}
+
+.das-sec-5 {
+  margin-top: 15px;
+}
+
+.das-sec-5-box {
+  align-items: center;
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+  border-radius: 10px;
+  border-radius: 6px;
+}
+
+.payment_req {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 25px;
+}
+
+.payment_req h6 {
+  margin: 0%;
+  color: #000000;
+  font-weight: 600;
+}
+
+.payment_req img {
+  width: 22%;
+}
+
+.payment_req span {
+  font-size: 10px;
+  border-radius: 10px;
+  padding: 4px 17px;
+  background: #e1f1ff;
+  color: #000000;
+}
+
+.bb {
+  border-bottom: 1px solid #ddd;
+}
+
+.sub_payment_req {
+  padding: 0px 25px;
+}
+
+.sub_payment_req p {
+  font-size: 11px;
+  color: #000000;
+}
+
+.sub_payment_req span {
+  color: #4399e5;
+}
+
+.sub_payment_req h4 {
+  margin-bottom: 2px;
+  font-size: 17px;
+  color: #000000;
+
+}
+
+.payment_bottom_line {
+  padding: 1px 25px;
+  background-color: #e1f1ff;
+}
+
+.payment_bottom_line small {
+  font-size: 9px;
+  color: #000000;
+}
+
+.bg {
+  background-color: #7ab5e9;
+  color: #ffffff;
 }

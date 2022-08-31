@@ -24,6 +24,12 @@ import { NgMultiSelectDropDownModule } from 'ng-multiselect-dropdown';
 import { ForgetPasswordComponent } from './forget-password/forget-password.component';
 import { ChangePasswordComponent } from './change-password/change-password.component';
 
+
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatTableModule } from '@angular/material/table';
+import { MatInputModule } from '@angular/material/input';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -51,6 +57,10 @@ import { ChangePasswordComponent } from './change-password/change-password.compo
     NgxSpinnerModule,
     BrowserAnimationsModule,
     RecaptchaModule,
+    // MatFormFieldModule,
+    // MatPaginatorModule,
+    // MatTableModule,
+    // MatInputModule,
     NgMultiSelectDropDownModule.forRoot()
   ],
   providers: [{

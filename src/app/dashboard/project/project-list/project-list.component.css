@@ -1,19 +1,116 @@
-#download_btn{
+/* #download_btn {
     margin: 0 0 0 7px;
     background-color: #3a89c1;
 }
-.formBody_td{
+
+.formBody_td {
     vertical-align: inherit;
     width: 50%;
 }
-label{
+
+label {
     font-weight: bold;
     margin: 0%;
 }
-.label_fs{
+
+.label_fs {
     margin: 0 0 1.5rem 0;
     font-size: larger;
 }
-.table{
+
+.table {
     border: 1px solid #eaeff0;
+}
+
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gst_box {
+    border: 1px solid;
+    border-radius: 0 0 17px 17px;
+    padding: 3rem;
+}
+
+.gst_flex_cont h2 {
+    margin: 0%;
+}
+
+.gst_flex_cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gst_flex_cont .icon_box i {
+    font-size: 2.5rem;
+    margin-left: 13px;
+}
+
+.gst_box .info {
+    color: #ed6060;
+    font-size: 25px;
+    margin: 0px 6px 0 0;
+}
+
+.top_border {
+    border: 1px solid;
+    padding: 8px;
+    border-radius: 17px 17px 0 0;
+    background-color: #ed6060;
+    border-bottom: none;
+}
+
+.gst_box .table tbody tr:nth-of-type(even) {
+    background-color: #ffffff;
+}
+
+.gst_box .table tbody tr td {
+    border: none;
+    padding: 8px 0px;
+    font-size: 17px;
+}
+
+.gst_box .table tbody tr span {
+    font-weight: 500;
+}
+
+.gst_box .upload {
+    color: #ffb100;
+    font-size: 25px;
+    margin: 0px 6px 0 0;
+}
+
+.top_border2 {
+    border: 1px solid;
+    padding: 8px;
+    border-radius: 17px 17px 0 0;
+    background-color: #e5e505;
+    border-bottom: none;
+}
+
+.gst_box .green {
+    color: #04cd04;
+    font-size: 25px;
+    margin: 0px 6px 0 0;
+}
+
+.top_border3 {
+    border: 1px solid;
+    padding: 8px;
+    border-radius: 17px 17px 0 0;
+    background-color: #04cd04;
+    border-bottom: none;
 }
