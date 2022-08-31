@@ -1,0 +1,376 @@
+.banner {
+  background: url(../../../assets/img/railway-LA/Group1618.png)bottom right no-repeat;
+  width: 100%;
+  /* height: 23rem; */
+}
+
+.box {
+  border-radius: 10px;
+  border: 1px solid #c5c2c2;
+  box-shadow: 1px 1px 4px #adabab;
+}
+
+.bannerContent {
+  width: 74%;
+  padding: 5.6rem 0 5.6rem 1rem;
+}
+
+.banner .bannerContent h3 {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: inline-block;
+  border-radius: 8px 8px 8px 0;
+  padding: 7px;
+  color: #fff;
+  background: #c45a11;
+  margin: 0 0 1rem 0;
+}
+
+.banner .bannerContent p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #272727;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+
+.banner .bannerContent h6 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #272727;
+  line-height: 25px;
+  text-transform: uppercase;
+  margin: -7px 0 0 0;
+}
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background: #fff;
+  border-radius: 15px;
+}
+
+#customers td,
+#customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+  background-color: #FFF7E0;
+}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  color: #282828;
+  font-size: 15px;
+}
+
+.fontStyle {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #444;
+}
+
+.balanceBox {
+  background: #c45a11;
+  padding: 4.4rem 0px;
+}
+
+.balanceBox img {
+  width: 50px;
+}
+
+.balanceBox h5 {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.balanceBox h3 {
+  font-size: 24px;
+  color: #fff;
+  margin: 0 0 14px;
+}
+
+.balanceBox a {
+  background: #fff;
+  padding: 6px;
+  color: #c45a11;
+}
+
+.Boxes-5 {
+  display: flex;
+}
+
+.boxesCon {
+  padding: 0 1.2rem;
+}
+
+.boxesCon h4 {
+  font-size: 18px;
+  color: #242424;
+  line-height: 21px;
+}
+
+.boxesCon h3 {
+  font-size: 2.5rem;
+  color: #c45a11;
+}
+
+.box1 {
+  width: 20%;
+  text-align: center;
+  background: #fff;
+  margin: 5rem 1rem 0 0;
+}
+
+.box1 .boxesCon img {
+  width: 60px;
+  position: relative;
+  top: -26px;
+  margin-bottom: -17px;
+}
+
+.pieChartBox {
+  background: #fff;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.chartBoxTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pieChartBox .chartBoxTop h4 {
+  color: #282828;
+  font-size: 18px;
+}
+
+.pieChartBox select {
+  width: 12rem;
+  height: 3rem;
+  border-radius: 5px;
+  border: 1px solid #bfbfbf;
+}
+
+.map-img {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.pieChartImg {
+  margin: 2rem 0;
+}
+
+.pieChartImg img {
+  width: 297px;
+}
+
+@media only screen and (max-width: 768px) {
+  .Boxes-5 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .box1 {
+    width: 100%;
+    margin-top: 5rem !important;
+  }
+
+  .box {
+    margin-top: 1rem;
+  }
+}
+
+
+
+
+
+/* brijesh>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.das-sec-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sec-1-box table tr td {
+  border: none;
+  padding: 0px 15px;
+}
+
+.sec-1-box {
+  border: 2px solid;
+  padding: 1.5rem 0;
+  border-radius: 6px;
+}
+
+.sec-1-box table tr .br {
+  border-left: 1px solid;
+}
+
+.das-sec-2 {
+  margin-top: 15px;
+}
+
+.das-sec-2 h5 {
+  margin: 0%;
+}
+
+.das-sec-2 img {
+  width: 11%;
+}
+
+.sec-2-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid;
+  padding: 6px;
+  border-radius: 6px;
+}
+
+.pb {
+  padding: 15px 15px 0 15px;
+
+}
+
+.das-sec-3 {
+  margin-top: 15px;
+}
+
+.das-sec-3 h5 {
+  margin: 0 0 5px 0;
+}
+
+.sec-3-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid;
+  padding: 18px 6px;
+  border-radius: 6px;
+}
+
+.ps {
+  max-width: 62%;
+}
+
+.ps p {
+  font-size: 10px;
+  margin: 0 0 0 0;
+}
+
+.date-box {
+  padding: 12px;
+  border-radius: 6px;
+  justify-content: space-between;
+  width: -webkit-fill-available;
+}
+
+.date-box label {
+  margin: 0;
+}
+
+/* .date-box i {
+  font-size: 19px;
+} */
+
+.das-sec-4 {
+  margin-top: 15px;
+}
+
+.sec-4-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid;
+  padding: 16px 28px;
+  border-radius: 6px 6px 0 0;
+  justify-content: space-between;
+}
+
+.sec-4-box span {
+  padding: 3px 9px;
+  border-radius: 8px 8px 8px 0;
+  background: #e1f1ff;
+  font-weight: 500;
+  font-size: smaller;
+}
+
+.sub-sec-4-box span {
+  font-size: x-small;
+}
+
+.sub-sec-4-box {
+  display: flex;
+  margin-top: 7px;
+  align-items: center;
+}
+
+.sec-4-box-sub p {
+  margin-bottom: 0%;
+  font-size: 10.6px;
+}
+
+.sec-4-box-sub h5 {
+  margin-bottom: 0%;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0%;
+}
+
+.sub-sec-4-box h4 {
+  margin-bottom: 0%;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0%;
+}
+
+.sub-sec-4-box span {
+  padding: 3px 9px;
+  border-radius: 3px 3px 3px 0;
+  background: #418ccd;
+  color: #ffffff;
+  margin-right: 7px;
+}
+
+.table {
+  margin: 0%;
+}
+
+.table tr td {
+  border: none;
+  text-align: center;
+}
+
+.sec-4-box-bottom {
+  border: 1px solid;
+  border-radius: 0 0 6px 6px;
+  border-top: 0;
+}
+
+.br {
+  border-left: 1px solid !important;
+}
+
+.table span {
+  font-size: 9px;
+  font-weight: 500;
+}
+
+.table h4 {
+  margin: 0%;
+}
+.policy-thum{
+  text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+}
+.policy-thum span{
+  color: red;
+}

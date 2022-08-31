@@ -1,0 +1,19 @@
+#download_btn{
+    margin: 0 0 0 7px;
+    background-color: #3a89c1;
+}
+.formBody_td{
+    vertical-align: inherit;
+    width: 50%;
+}
+label{
+    font-weight: bold;
+    margin: 0%;
+}
+.label_fs{
+    margin: 0 0 1.5rem 0;
+    font-size: larger;
+}
+.table{
+    border: 1px solid #eaeff0;
+}
