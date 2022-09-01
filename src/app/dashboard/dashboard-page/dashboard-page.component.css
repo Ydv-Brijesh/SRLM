@@ -239,23 +239,23 @@
 }
 
 .sec-1-box table tr .br1 {
-  border-left: 1px solid #00c500;
+  border-left: 2px solid #00c500;
 }
 
 .sec-1-box table tr .br2 {
-  border-left: 1px solid #ffa500;
+  border-left: 2px solid #ffa500;
 }
 
 .sec-1-box table tr .br3 {
-  border-left: 1px solid #59c9ff;
+  border-left: 2px solid #59c9ff;
 }
 
 .sec-1-box table tr .br4 {
-  border-left: 1px solid #ff6262;
+  border-left: 2px solid #ff6262;
 }
 
 .sec-1-box table tr .br5 {
-  border-left: 1px solid #99e700;
+  border-left: 2px solid #99e700;
 }
 
 .das-sec-2 {
@@ -409,6 +409,7 @@
 
 .table {
   margin: 0%;
+  table-layout: fixed;
 }
 
 .table tr td {
