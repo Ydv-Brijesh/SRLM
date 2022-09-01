@@ -358,7 +358,7 @@
   justify-content: space-between;
 }
 
-.sec-4-box span {
+.sec-4-box .bud_sp {
   padding: 3px 9px;
   border-radius: 8px 8px 8px 0;
   background: #e1f1ff;
@@ -578,4 +578,112 @@
 
 .fs {
   font-size: initial;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.progress {
+  width: 76px;
+  height: 76px;
+  font-size: 14px;
+  color: #0e8eff;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  background: #ffffff;
+  text-align: center;
+  line-height: 60px;
+  margin: 0%;
+  border: 2px solid #ddd;
+  position: relative;
+}
+
+/* .progress::after {
+  content: "%";
+} */
+
+.progress .title {
+  position: relative;
+  z-index: 100;
+  font-weight: 600;
+}
+
+.progress .overlay {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #ffffff
+}
+
+.progress .left,
+.progress .right {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 5px solid #0e8eff;
+  border-radius: 100px 0px 0px 100px;
+  border-right: 0;
+  transform-origin: right;
+}
+
+.progress .left {
+  animation: load1 1s linear forwards;
+}
+
+.progress:nth-of-type(2) .right,
+.progress:nth-of-type(3) .right {
+  animation: load2 .5s linear forwards 1s;
+}
+
+.progress:last-of-type .right,
+.progress:first-of-type .right {
+  animation: load3 .8s linear forwards 1s;
+}
+
+.spent{
+top: 14px;
+  position: absolute;
+  color: black;
+  font-size: 10px;
+  z-index: 999;
+  left: 22px;
+  font-weight: 600;
+}
+
+@keyframes load1 {
+  0% {
+    transform: rotate(330deg);
+  }
+
+  100% {
+    transform: rotate(60deg);
+  }
+}
+
+@keyframes load2 {
+  0% {
+    z-index: 1000;
+    transform: rotate(180deg);
+  }
+
+  100% {
+    z-index: 1000;
+    transform: rotate(70deg);
+  }
 }
