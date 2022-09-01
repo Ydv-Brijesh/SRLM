@@ -582,19 +582,6 @@
   font-size: initial;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .progress {
   width: 76px;
   height: 76px;
@@ -658,8 +645,8 @@
   animation: load3 .8s linear forwards 1s;
 }
 
-.spent{
-top: 14px;
+.spent {
+  top: 14px;
   position: absolute;
   color: black;
   font-size: 10px;
